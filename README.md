@@ -6,6 +6,8 @@ A database manager for world building
 
 ## Install Node.JS
 
+THIS PACKAGE IS OPTIMIZED FOR NODE 12.22.12
+
 Simply install Node.JS for your system. You can get it straight from their site, or on Linux, install it through your package manager.
 
 ## Download the program

@@ -2,6 +2,7 @@
 
 ---
 
+
 ## 0.1.15
 
 ### Known issues
@@ -15,8 +16,9 @@
 - Fixed GitHub links for the current version of FA on welcome screen and in the menu
 
 ### New features
-- Added "Program Tutorials" button to the "Help & Info"menu
-- Added FA tutorial support and all the guides
+- Switched branding from "Elvanos" to "Vishiri"
+- Added Ko-Fi buttons
+- Added "Program Tutorials" button to the "Help & Info" menu (WIP)
 
 ## 0.1.14a
 

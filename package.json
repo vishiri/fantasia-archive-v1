@@ -1,9 +1,9 @@
 {
   "name": "fantasiaarchive",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "A database manager for world building",
   "productName": "Fantasia Archive",
-  "author": "Elvanos <elvanos66@gmail.com>",
+  "author": "Vishiri <vishiri.rilgatan@gmail.com>",
   "license": "GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007",
   "private": true,
   "scripts": {

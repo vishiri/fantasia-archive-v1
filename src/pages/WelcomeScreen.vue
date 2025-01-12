@@ -61,8 +61,20 @@
         <q-separator color="primary" horizonatal dark class="q-mt-xl q-mb-lg" style="opacity: 0.5; width: 400px;" />
 
         <div class="col-12 q-mx-sm q-my-md">
-          <div class="patreonButton shadow-1" @click="openPatreonLink">
-            Support Fantasia Archive on Patreon!
+          <div class="row">
+
+            <div class="q-mx-sm q-my-md">
+              <div class="patreonButton shadow-1" @click="openPatreonLink">
+                Support FA on Patreon!
+              </div>
+            </div>
+
+            <div class="q-mx-sm q-my-md">
+              <div class="kofiButton shadow-1" @click="openKofiLink">
+                Support FA on Ko-Fi!
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -166,38 +178,45 @@ export default class WelcomeScreen extends BaseClass {
   }
 
   /**
-   * Open Discord invite link in thw default browser window
+   * Open Discord invite link in the default browser window
    */
   openDiscordInviteLink () {
     shell.openExternal("https://discord.gg/JQDBvsN9Te").catch(e => console.log(e))
   }
 
   /**
-   * Open Patreon link in thw default browser window
+   * Open Patreon link in the default browser window
    */
   openPatreonLink () {
-    shell.openExternal("https://www.patreon.com/elvanos").catch(e => console.log(e))
+    shell.openExternal("https://www.patreon.com/c/vishiri").catch(e => console.log(e))
   }
 
   /**
-   * Open Reddit link in thw default browser window
+   * Open Ko-Fi link in the default browser window
+   */
+  openKofiLink () {
+    shell.openExternal("https://ko-fi.com/vishiri").catch(e => console.log(e))
+  }
+
+  /**
+   * Open Reddit link in the default browser window
    */
   openRedditLink () {
     shell.openExternal("https://www.reddit.com/r/FantasiaArchive/").catch(e => console.log(e))
   }
 
   /**
-   * Open Website link in thw default browser window
+   * Open Website link in the default browser window
    */
   openWebsiteLink () {
     shell.openExternal("http://fantasiaarchive.com/").catch(e => console.log(e))
   }
 
   /**
-   * Open GitHub link in thw default browser window
+   * Open GitHub link in the default browser window
    */
   openGithubLink () {
-    shell.openExternal("https://github.com/Elvanos/fantasia-archive-v1").catch(e => console.log(e))
+    shell.openExternal("https://github.com/vishiri/fantasia-archive-v1").catch(e => console.log(e))
   }
 
   /****************************************************************/

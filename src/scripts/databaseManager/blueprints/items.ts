@@ -297,7 +297,7 @@ export const itemsBlueprint: I_Blueprint = {
     },
     {
       id: "pairedResourcesMade",
-      name: "Resources/Materials the Item is made off",
+      name: "Resources/Materials the Item is made of",
       type: "manyToManyRelationship",
       icon: "mdi-gold",
       sizing: 4,
