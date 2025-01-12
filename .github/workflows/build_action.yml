@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload Linux Artifact - Snap
         if: ${{ matrix.os == 'ubuntu-latest' }}
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v4.6.0
         with:
           # Artifact name
           name: Linux_FA Snap ${{ github.event.inputs.version }}
@@ -44,7 +44,7 @@ jobs:
 
       - name: Upload Linux Artifact - AppImage
         if: ${{ matrix.os == 'ubuntu-latest' }}
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v4.6.0
         with:
           # Artifact name
           name: Linux_FA AppImage ${{ github.event.inputs.version }}
@@ -53,7 +53,7 @@ jobs:
 
       - name: Upload Windows Artifact
         if: ${{ matrix.os == 'windows-latest' }}
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v4.6.0
         with:
           # Artifact name
           name: Windows_FA ${{ github.event.inputs.version }}
